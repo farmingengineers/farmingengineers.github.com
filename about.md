@@ -1,17 +1,17 @@
 ---
-layout: page
-title: About
+layout: post
+title: About the Farming Engineers
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+## What's with the name?
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+We’re Matt and Lisa, two engineering school graduates who started farming in 2008.  Lisa runs the farm and Matt writes software.  We rent our extra farmland to Farmer J.  We have over three acres of vegetables.  We used to have a few beef cows and a lot of chickens.  We’ve been assisted by various employees over the years. These days you’ll meet Devin, our full time helper, at some of our markets.  Our farm is USDA Certified Organic, and was the first certified organic farm in Clinton County, Indiana.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+You can find us at the following farmers markets:
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+{% for market in site.data.markets %}
+[{{market.name}}]({{market.link}}), {{market.season}}. {{market.description}}
+{% endfor %}
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can find us on [facebook](https://www.facebook.com/pages/The-Farming-Engineers/136276076392635).

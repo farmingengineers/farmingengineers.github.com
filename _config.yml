@@ -4,60 +4,40 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "farming engineers organic produce"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   from Pickard to your plate
 
-email: a-mail@mail.mail
+email: burkefarm@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo.png"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/img_7351.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+name: 'farming engineers organic produce'
+
+store_url: 'https://store.farmingengineers.com'
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "https://farmingengineers.com" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@dirkfabisch'
-
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+#twitter_handle: '@dirkfabisch'
 
 #google_analytics: UA-XXXXX-X
 
 # social icons and sharing options
 social:
-  - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+  - icon: facebook
+    url:  https://www.facebook.com/The-Farming-Engineers-Organic-Produce-136276076392635/
+    desc: Like us on Facebook!
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+  - icon: instagram
+    url:  https://instagram.com/farmingengineers
+    desc: Follow us on Instagram!
