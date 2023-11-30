@@ -1,27 +1,21 @@
+- name: Carmel Farmers Market
+  season: Summer and Winter
+  link: http://carmelfarmersmarket.com/
+  description: |
+    The summer market is May through September. The winter market is Saturday morning, October through March (or until we run out of produce).
+
+- name: Fishers Farmers Market
+  season: Summer (May through September)
+  link: http://www.playfishers.com/FARMERSMARKET
+
 - name: Indy Winter Farmers Market
   season: November through April
   link: http://www.indywinterfarmersmarket.org/
   description: |
     We’re there from November until we run out of produce, weather and other circumstances permitting.
 
-- name: Carmel Farmers Market
-  season: summer and winter
-  link: http://carmelfarmersmarket.com/
-  description: |
-    The summer market is May through September. The winter market is Saturday morning, October through March (or until we run out of produce).
-
-- name: Noblesville Farmers Market
-  season: May through October
-  link: "http://noblesvillemainstreet.org/index.php/signature-events/noblesville-indiana-farmers-market#!FMarket2"
-
 - name: Market Wagon
   season: online, mostly year round
-  link: "https://marketwagon.com/vendors?id=171"
+  link: https://shop.marketwagon.com/collections/vendor/171
   description: |
     Market Wagon is a marketplace where you can get products from many of your favorite local food producers. They have a variety of pickup and delivery options.
-
-- name: Our online store
-  season: mostly year round
-  link: "https://store.farmingengineers.com/"
-  description: |
-    Email us to check if delivery or pick up will work for you.

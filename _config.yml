@@ -18,8 +18,6 @@ cover: "/assets/images/img_3433.jpg"
 
 name: 'farming engineers organic produce'
 
-store_url: 'https://store.farmingengineers.com'
-
 paginate:	5
 
 url: "https://farmingengineers.com" # the base hostname & protocol for your site
