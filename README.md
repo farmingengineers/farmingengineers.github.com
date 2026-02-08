@@ -1,3 +1,15 @@
+Farming Engineers
+=================
+
+Preview
+-------
+
+Preview like this:
+
+    docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+
+See also https://github.com/Starefossen/docker-github-pages.
+
 mediator
 ========
 
