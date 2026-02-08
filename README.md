@@ -1,3 +1,15 @@
+Farming Engineers
+=================
+
+Preview
+-------
+
+Preview like this:
+
+    _preview/start
+
+See also https://github.com/Starefossen/docker-github-pages.
+
 mediator
 ========
 

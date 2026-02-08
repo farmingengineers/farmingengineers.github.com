@@ -3,6 +3,13 @@ gems:
   - jemoji
   - jekyll-paginate
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
+
 # Site settings
 title: "farming engineers organic produce"
 description: > # this means to ignore newlines until "email:"
