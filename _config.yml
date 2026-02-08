@@ -13,7 +13,7 @@ exclude:
 # Site settings
 title: "farming engineers organic produce"
 description: > # this means to ignore newlines until "email:"
-   From Pickard to your plate. We are a family vegetable farm in Clinton County, Indiana, USDA Certified Organic by OnMark.
+   from Pickard to your plate.
 
 email: burkefarm@gmail.com
 #blog logo
