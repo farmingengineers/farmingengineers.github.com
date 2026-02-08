@@ -3,6 +3,7 @@
 set -eux
 
 cd "$(dirname "$0")/.."
-git submodule update --recursive --init
-(cd _preview/docker-github-pages && \
-  docker build --rm -t farmingengineers/pages-preview .)
+bundle config set path .bundle
+bundle install
+bundle update
+bundle exec jekyll serve
