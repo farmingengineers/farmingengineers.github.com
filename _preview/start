@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eux
+
+cd "$(dirname "$0")/.."
+git submodule update --recursive --init
+(cd _preview/docker-github-pages && \
+  docker build --rm -t farmingengineers/pages-preview .)

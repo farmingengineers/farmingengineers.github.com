@@ -6,7 +6,7 @@ Preview
 
 Preview like this:
 
-    docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+    _preview/start
 
 See also https://github.com/Starefossen/docker-github-pages.
 
